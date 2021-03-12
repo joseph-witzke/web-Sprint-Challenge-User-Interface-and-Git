@@ -210,3 +210,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Additional styling for the About page */
+
+.about-section{
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.about-section p{ 
+    margin-bottom: 20px;
+}
+
+.strategy-work{
+    display: flex;
+    align-content: space-around;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.strategy h2{
+    margin-top: 10px;
+}
+
+.work h2{
+    margin-top: 10px;
+}
+
+button{
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+    

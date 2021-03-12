@@ -66,20 +66,33 @@ p {
     line-height: 1.4;
 }
 
-header nav{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+header{
     width: 100%;
-    padding: 15px 12%;
 }
 
-.links{
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.logo{
+    border: 2px solid blue;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.links{   
     display: flex;
     justify-content: space-around;
     width: 60%;
     text-align: center;
-    padding: 2%;
+    padding: 1% 5%;
+    border: 2px solid gray;
+    margin-right: 20%;
 }
 
 .links a{
@@ -215,7 +228,7 @@ footer nav a {
 .about-section{
     border-bottom: 1px dashed black;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 10px 2%;
 }
 
 .about-section p{ 
@@ -227,8 +240,9 @@ footer nav a {
     align-content: space-around;
     border-bottom: 1px dashed black;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 10px 2%;
 }
+
 .strategy h2{
     margin-top: 10px;
 }
@@ -237,9 +251,31 @@ footer nav a {
     margin-top: 10px;
 }
 
+.places-collab{
+    display: flex;
+    align-content: space-around;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding: 10px 2%;
+}
+
+.places h2{
+    margin-top: 10px;
+}
+
+.collab h2{
+    margin-top: 10px;
+}
+
+.bottom-section{
+    padding: 20px 2%;
+    margin-bottom: 20px;
+}
+
 button{
-    border-radius: 10%;
-    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 10px 30px;
     margin: 10px 0;
     background-color: white;
     color: black;
